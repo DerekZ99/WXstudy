@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/video/index",
+    "pages/home/index",
+    "pages/demo/index",
+    "pages/horizontal/index",
+    "pages/mine/index",
+    "pages/search/index",
+    "pages/album/index",
+    "pages/imgCategory/index",
+    "pages/videoPlay/index",
+    "pages/imgDetail/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "懂你找图",
+    "navigationBarBackgroundColor": "#000"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d4237a",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "home",
+        "iconPath": "./static/tabicon/home.png",
+        "selectedIconPath": "./static/tabicon/home (2).png"
+      },
+      {
+        "pagePath": "pages/horizontal/index",
+        "text": "horizontal",
+        "iconPath": "./static/tabicon/photo.png",
+        "selectedIconPath": "./static/tabicon/photo (2).png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "mine",
+        "iconPath": "./static/tabicon/mine.png",
+        "selectedIconPath": "./static/tabicon/mine (2).png"
+      },
+      {
+        "pagePath": "pages/video/index",
+        "text": "video",
+        "iconPath": "./static/tabicon/video.png",
+        "selectedIconPath": "./static/tabicon/video (2).png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "search",
+        "iconPath": "./static/tabicon/search.png",
+        "selectedIconPath": "./static/tabicon/search (2).png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap9.json"
+}
